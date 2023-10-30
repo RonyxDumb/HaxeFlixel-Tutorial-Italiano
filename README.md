@@ -1,4 +1,4 @@
-[HaxeFlixel Logo](https://github.com/RonyxDumb/HaxeFlixel-Tutorial-Italiano/blob/main/assets/logo.png)
+![](https://raw.githubusercontent.com/RonyxDumb/HaxeFlixel/main/assets/logo.png)
 
 ### Tutorial di HaxeFlixel in Italiano 
 In questa pagina, troverai tutto ciò che ti servirà per programmare in [HaxeFlixel](https://haxeflixel.com).
