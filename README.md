@@ -1,4 +1,4 @@
-[haxeflixel logo](assets/logo)
+[HaxeFlixel Logo](https://github.com/RonyxDumb/HaxeFlixel-Tutorial-Italiano/blob/main/assets/logo.png)
 
 ### Tutorial di HaxeFlixel in Italiano 
 In questa pagina, troverai tutto ciò che ti servirà per programmare in [HaxeFlixel](https://haxeflixel.com).
@@ -16,4 +16,4 @@ Leggi [LICENSE](./LICENZE) per altre informazioni
 ## CREDITI
 | Avatar | UserName | Specialization |
 | ------ | -------- | -------------- |
-! [](https://avatars.githubusercontent.com/u/104029827?v=4) | [RonyxDumb](https://avatars.githubusercontent.com/u/104029827?v=4) | Programmatore, Scrittore |
+| [](https://avatars.githubusercontent.com/u/104029827?v=4) | [RonyxDumb](https://avatars.githubusercontent.com/u/104029827?v=4) | Programmatore, Scrittore |
