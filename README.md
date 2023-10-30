@@ -11,7 +11,7 @@ In questa pagina, troverai tutto ciò che ti servirà per programmare in [HaxeFl
 Leggi [LICENSE](./LICENZE) per altre informazioni
 
 ### SETUP 
-1) - Segui [SETUP.md](./SETUP.md) per installare tutto il necessario per programmare.
+- Segui [SETUP.md](./SETUP.md) per installare tutto il necessario per programmare.
 
 ### CREDITI
 | Avatar | UserName | Specializzazione |
