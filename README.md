@@ -16,4 +16,4 @@ Leggi [LICENSE](./LICENZE) per altre informazioni
 ### CREDITI
 | Avatar | UserName | Specialization |
 | ------ | -------- | -------------- |
-| [](https://avatars.githubusercontent.com/u/104029827?v=4) | [RonyxDumb](https://github.com/RonyxDumb) | Programmatore, Scrittore |
+| [](https://avatars.githubusercontent.com/u/104029827?v=64) | [RonyxDumb](https://github.com/RonyxDumb) | Programmatore, Scrittore |
