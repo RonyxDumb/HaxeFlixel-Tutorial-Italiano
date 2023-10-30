@@ -14,6 +14,6 @@ Leggi [LICENSE](./LICENZE) per altre informazioni
 1) - Segui [SETUP.md](./SETUP.md) per installare tutto il necessario per programmare.
 
 ### CREDITI
-| Avatar | UserName | Specialization |
+| Avatar | UserName | Specializzazione |
 | ------ | -------- | -------------- |
-| [](https://avatars.githubusercontent.com/u/104029827?v=64) | [RonyxDumb](https://github.com/RonyxDumb) | Programmatore, Scrittore |
+| ![](https://avatars.githubusercontent.com/u/104029827?v=64) | [RonyxDumb](https://github.com/RonyxDumb) | Programmatore, Scrittore. |
