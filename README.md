@@ -8,7 +8,7 @@ In questa pagina, troverai tutto ciò che ti servirà per programmare in [HaxeFl
 
 ### LICENZA
 **HaxeFlixel-Tutorial-Italiano** è sviluppato sotto licenza **Apache 2.0 License**.
-Leggi [LICENSE](./LICENZE) per altre informazioni
+Leggi [LICENSE](./LICENZE) per maggiori informazioni.
 
 ### SETUP 
 - Segui [SETUP.md](./SETUP.md) per installare tutto il necessario per programmare.
