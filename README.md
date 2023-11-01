@@ -13,6 +13,9 @@ Leggi [LICENSE](./LICENZE) per maggiori informazioni.
 ### SETUP 
 - Segui [SETUP.md](./SETUP.md) per installare tutto il necessario per programmare.
 
+### ESEMPI
+- Per guardare alcuni esempi, leggi [ESEMPI.md](./ESEMPI.md) per maggiori informazioni.
+
 ### CREDITI
 | Avatar | UserName | Specializzazione |
 | ------ | -------- | -------------- |
