@@ -3,7 +3,7 @@
 ## SETUP
 Per iniziare a programmare, dovrai prima installare alcune cose.
 
-> **Information**
+> **Important**
 > Per ora, sono presenti solo le istruzioni per Windows.
 > Scusatemi utenti Linux e MacOS.
 
