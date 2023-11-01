@@ -8,7 +8,7 @@ Per iniziare a programmare, dovrai prima installare alcune cose.
 > Scusatemi utenti Linux e MacOS.
 
 ## Windows 
-1. Installa ['Haxe'](https://haxe.org/download) e ['HaxeFlixel'](https://haxeflixel.com/documentation/getting-started/)
+1. Installa ['Haxe'](https://haxe.org/download) e ['HaxeFlixel'](https://haxeflixel.com/documentation/getting-started/).
 2. Installa ['Visual Studio Code Build Tools'](https://aka.ms/vs/17/release/vs_BuildTools.exe).
 3. Aspetta che Visual Studio Installer finisca il processo d'installazione.
 4. Nella schermata di Visual Studio Install, vai nel reparto "Componenti Singoli" e segna queste impostazioni:
