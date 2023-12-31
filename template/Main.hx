@@ -15,7 +15,6 @@ import flixel.FlxGame;
 import openfl.display.Sprite;
 /**
 	autore@ RonyxDumb
-	16/12/2023
 **/
 class Main extends Sprite
 {
