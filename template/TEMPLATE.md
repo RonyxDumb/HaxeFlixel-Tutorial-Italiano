@@ -10,8 +10,8 @@ Innanzitutto, dovrai inserirli nella directory del tuo progetto, come nel seguen
 
 
 ## Project (directory del tuo programma)
- - assets: directory dove verranno inseriti tutti gli assets come musica, suoni, immagini ed altro.
- - source: directory dove verranno inseriti tutti i file [.hx](https://www.file-extension.info/it/format/hx), ovvero file in cui scrivi i codici.
-    |_ -Main.hx: file in cui vengono programmate altre funzioni preliminari del gioco come lo state con cui inizia, e tanto altro.
- - Project.xml: file in cui vengono specificate varie informazioni sul programma come il nome, versione, librerie utilizzate, e tanto altro.
+ - *assets*: directory dove verranno inseriti tutti gli assets come musica, suoni, immagini ed altro.
+ - *source*: directory dove verranno inseriti tutti i file [.hx](https://www.file-extension.info/it/format/hx), ovvero file in cui scrivi i codici.
+    |_ - *Main.hx*: file in cui vengono programmate altre funzioni preliminari del gioco come lo state con cui inizia, e tanto altro.
+ - *Project.xml*: file in cui vengono specificate varie informazioni sul programma come il nome, versione, librerie utilizzate, e tanto altro.
 
