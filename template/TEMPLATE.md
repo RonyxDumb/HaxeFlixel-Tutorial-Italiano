@@ -5,9 +5,8 @@ In questa directory, puoi trovare due file:
 
 Questi due file sono dei template (ovvero un modello che si può utilizzare) durante lo sviluppo del tuo progetto con HaxeFlixel.
 
-### Cosa sono e come posso utilizzarli???
+### Come posso utilizzarli???
 Innanzitutto, dovrai inserirli nella directory del tuo progetto, come nel seguente esempio:
-
 
 ## Project (directory del tuo programma)
  - `assets`: directory dove verranno inseriti tutti gli assets come musica, suoni, immagini ed altro.
