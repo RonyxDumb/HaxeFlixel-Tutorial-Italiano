@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xmlns="http://lime.openfl.org/project/1.0.4"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://lime.openfl.org/project/1.0.4 http://lime.openfl.org/xsd/project-1.0.4.xsd">
+	
+    <!-- Impostazioni Applicazione -->
+    <meta title="Nome APP" packageName="com.template.template" package="com.template.template" version="1.0.0" company="YourCompany" />
+    <app file="File APP" main="Main" path="build" preloader="flixel.system.FlxPreloader" />
+
+    <!-- Impostazioni Schermo -->
+    <window width="1280" height="720" orientation="landscape" background="#000000" hardware="true" vsync="false" resizable="true" />
+	<window allow-high-dpi="true" unless="web" />
+	<window fullscreen="true" resizable="false" if="mobile || switch" />
+
+    <!-- Impostazioni Directory -->
+    <assets path="assets" />
+	<classpath path="source" />
+	<set name="BUILD_DIR" value="build/debug" if="debug" />
+	<set name="BUILD_DIR" value="build/release" unless="debug" />
+
+    <!-- Logo dell'Applicazione -->
+
+    <!-- Librerie -->
+	<haxelib name="flixel" />
+	<haxelib name="flixel-addons" />
+    <haxelib name="flixel-ui" />
+    <haxelib name="openfl"/>
+
+    <!-- Definizioni -->
+    <section if="cpp">
+		<haxedef name="HXCPP_CHECK_POINTER" if="cpp" />
+		<haxedef name="HXCPP_STACK_LINE" if="cpp" />
+		<haxedef name="HXCPP_STACK_TRACE" if="cpp" />
+	</section>
+
+	<!--Disable the Flixel core focus lost screen-->
+	<haxedef name="FLX_NO_FOCUS_LOST_SCREEN" />
+
+    <undefine name="openfl-disable-handle-error" if="debug" />
+
+    <!-- Android Export Config -->
+    <section if="mobile">
+		    <!--Target SDK--> 
+		    <android target-sdk-version="29" if="${lime &lt; 8.1.0}" />
+	</section>
+
+	<!-- Ios Export Config -->
+	<section if="ios">
+		<!--Dependency--> 
+		<dependency name="Metal.framework" if="${lime &lt; 8.0.0}" />
+	</section>
+</project>
