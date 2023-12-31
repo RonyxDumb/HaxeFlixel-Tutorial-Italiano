@@ -16,6 +16,9 @@ Leggi [LICENSE](./LICENSE) per maggiori informazioni.
 ### ESEMPI
 - Per guardare alcuni esempi, leggi [ESEMPI.md](./ESEMPI.md) per maggiori informazioni.
 
+### TEMPLATE
+- Se vuoi iniziare su qualche file già pre-impostato, dai un'occhiata a [TEMPLATE.md](template/TEMPLATE.md).
+
 ### CREDITI
 | Avatar | UserName | Specializzazione |
 | ------ | -------- | -------------- |
