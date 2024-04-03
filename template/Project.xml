@@ -20,6 +20,7 @@
 	<set name="BUILD_DIR" value="build/release" unless="debug" />
 
     <!-- Logo dell'Applicazione -->
+    <icon path="IconAPP.png" />
 
     <!-- Librerie -->
 	<haxelib name="flixel" />
