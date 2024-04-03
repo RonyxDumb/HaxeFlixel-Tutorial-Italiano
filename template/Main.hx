@@ -83,12 +83,6 @@ class Main extends Sprite
 		// "FlxG.sound.cacheAll();"
 
 		///////////////////////////////////////////////////////////
-
-		// registra le funzioni
-		// inUsctaFinestra
-		// inEntrataFinestra
-		Application.current.window.onFocusIn.add(inEntrataFinestra);
-		Application.current.window.onFocusOut.add(inUscitaFinestra);
 	}
 
 	// transizione per quando esci da uno State
@@ -101,69 +95,5 @@ class Main extends Sprite
 	public static function riavvioAPP()
 	{
 		FlxG.resetGame();
-	}
-
-	var preVolum:Float = 1;
-	var newVolum:Float = 1;
-	public static var focused:Bool = true;
-
-	// funzione per quando esci dalla finestra
-	function inUscitaFinestra()
-	{
-		focused = false;
-
-		// abbassa il volume quando si esce dalla finestra
-		if (Type.getClass(FlxG.state)) 
-		{
-			preVolum = FlxG.sound.volume;
-			if (preVolum > 0.3)
-			{
-				newVolum = 0.3;
-			}
-			else 
-			{
-				if (preVolum > 0.1)
-				{
-					newVolum = 0.1;
-				}
-				else
-				{
-					newVolum = 0;
-				}
-			}
-
-			trace("Gioco focused");
-
-			if (focusMusicTween != null)
-				focusMusicTween.cancel();
-			focusMusicTween = FlxTween.tween(FlxG.sound, {volume: newVolum}, 0.5);
-
-			// per risparmiare energia, all'uscita dalla finestra
-			// riduciamo il framerate da 120 a 60
-			FlxG.drawFramerate = 60;
-		}
-	}
-
-	function inEntrataFinestra()
-	{
-		new FlxTimer().start(0.2, function(tmr:FlxTimer)
-		{
-			focused = true;
-		});
-
-		// ritorna al volume di prima al ritorno nella finestra
-		if (Type.getClass(FlxG.state))
-		{
-			trace("Gioco focused");
-
-			// ritorna al volume predefinitiv al ritorno
-			if (focusMusicTween !=null)
-				focusMusicTween.cancel();
-
-			focusMusicTween = FlxTween.tween(FlxG.sound, {volume: preVolum}, 0.5);
-
-			// ritorna il drawFramerate come prima
-			FlxG.drawFramerate = 120;
-		}
 	}
 }
